@@ -1,0 +1,19 @@
+.page #app2{
+}
+#app2 .tab-ber{
+    display: flex;
+}
+#app2 .tab-ber > li{
+border: 1px solid gray;
+width:50%;
+}
+#app2 .tab-ber>li.selected{
+    background:gray;
+    color:white;
+}
+#app2 .tab-content >li.active{
+    display:block;
+}
+#app2 .tab-content > li{
+   display: none; 
+}
